@@ -6,8 +6,12 @@ body {
 p {
   font-family: 'Roboto', sans-serif;
   line-height: 24px;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 300;
+}
+
+.show {
+  display: block !important;
 }
 
 .grey-bar {
@@ -55,16 +59,16 @@ p {
 .sub-title {
   font-family: 'Open Sans', sans-serif;
   font-weight: 500;
+  border-bottom: 4px solid #6B5EF7;
+  padding: 0 5px;
+  padding-bottom: 5px;
+  display: inline-block;
 }
 
 .Ai__img-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -72,5 +76,37 @@ p {
 
 .Ai__img-wrapper img {
   width: 50%;
+}
+
+.Ai__video {
+  width: 80%;
+  display: none;
+  margin: 20px 0px;
+}
+
+.MainPlex__img-wrapper img {
+  width: 100%;
+  margin: -20px 0px;
+}
+
+.DigiU__img-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.DigiU__img-wrapper img {
+  width: 50%;
+}
+
+.NiceCash__img-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.NiceCash__img-wrapper img {
+  width: 50%;
+  padding: 1px;
 }
 /*# sourceMappingURL=style.css.map */
