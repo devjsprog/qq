@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+body {
+    background: #F5F5FB;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+    font-size: 12px;
+    font-weight: 300;
+}
+.grey-bar {
+    background: #222222;
+    height: 30px;
+}
+.content-wrapper {
+    padding: 0 25px;
+}
+.container {
+    box-shadow: 0px 0px 2px 0px rgba(34, 60, 80, 0.2);
+    background: white;
+    margin: 0 auto;
+    width: 1050px;
+    @media (max-width: 950px) {
+        width: 800px;
+    }
+    @media (max-width: 850px) {
+        width: 700px;
+    }
+    @media (max-width: 750px) {
+        width: 600px;
+    }
+}
+.main-title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.02em;
+    font-size: 48px;
+}
+.sub-title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+.Ai {
+    &__img-wrapper {
+        display: flex;
+        flex-direction: row;
+        // justify-content: center;
+        align-items: center;
+        img {
+            width: 50%;
+        }
+    }
+}
