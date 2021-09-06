@@ -56,6 +56,18 @@ p {
   font-size: 48px;
 }
 
+@media (max-width: 950px) {
+  .main-title {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 550px) {
+  .main-title {
+    font-size: 28px;
+  }
+}
+
 .sub-title {
   font-family: 'Open Sans', sans-serif;
   font-weight: 500;
@@ -108,5 +120,11 @@ p {
 .NiceCash__img-wrapper img {
   width: 50%;
   padding: 1px;
+}
+
+.HELIUM__video {
+  display: none;
+  width: 80%;
+  margin: 20px 0px;
 }
 /*# sourceMappingURL=style.css.map */
