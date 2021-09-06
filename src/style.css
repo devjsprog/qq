@@ -45,7 +45,7 @@ p {
 
 @media (max-width: 750px) {
   .container {
-    width: 600px;
+    width: 100%;
   }
 }
 
@@ -96,6 +96,12 @@ p {
   margin: 20px 0px;
 }
 
+@media (max-width: 950px) {
+  .Ai__video {
+    width: 100%;
+  }
+}
+
 .MainPlex__img-wrapper img {
   width: 100%;
   margin: -20px 0px;
@@ -126,5 +132,11 @@ p {
   display: none;
   width: 80%;
   margin: 20px 0px;
+}
+
+@media (max-width: 950px) {
+  .HELIUM__video {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=style.css.map */

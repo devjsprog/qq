@@ -30,7 +30,7 @@ p {
         width: 700px;
     }
     @media (max-width: 750px) {
-        width: 600px;
+        width: 100%
     }
 }
 .main-title {
@@ -66,6 +66,9 @@ p {
         width: 80%;
         display: none;
         margin: 20px 0px;
+        @media (max-width: 950px) {
+            width: 100%;
+        }
     }
 }
 .MainPlex {
@@ -98,5 +101,8 @@ p {
         display: none;
         width: 80%;
         margin: 20px 0px;
+        @media (max-width: 950px) {
+            width: 100%;
+        }
     }
 }
